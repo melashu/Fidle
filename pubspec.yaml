@@ -1,0 +1,306 @@
+name: fidle
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+  animated_splash_screen: ^1.1.0
+  image_picker: ^0.8.4+4
+  google_mobile_ads: ^1.0.0
+  url_launcher: ^6.0.10
+  # audioplayers: ^0.20.1
+  just_audio: ^0.9.18
+  # rxdart: ^0.27.2
+  # lottie: ^1.2.1
+  # flutter_sound: ^8.4.2
+  # flutter_local_notifications: ^9.1.2
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - images/login.jpg
+      - assets/ha1.aac
+      - assets/ha2.aac
+      - assets/ha3.aac
+      - assets/ha4.aac
+      - assets/ha5.aac
+      - assets/ha6.aac
+      - assets/ha7.aac
+      - assets/le1.aac
+      - assets/le2.aac
+      - assets/le3.aac
+      - assets/le4.aac
+      - assets/le5.aac
+      - assets/le6.aac
+      - assets/le7.aac
+      - assets/me1.aac
+      - assets/me2.aac
+      - assets/me3.aac
+      - assets/me4.aac
+      - assets/me5.aac
+      - assets/me6.aac
+      - assets/me7.aac
+      - assets/se1.aac
+      - assets/se2.aac
+      - assets/se3.aac
+      - assets/se4.aac
+      - assets/se5.aac
+      - assets/se6.aac
+      - assets/se7.aac
+      - assets/re1.aac
+      - assets/re2.aac
+      - assets/re3.aac
+      - assets/re4.aac
+      - assets/re5.aac
+      - assets/re6.aac
+      - assets/re7.aac
+      - assets/she1.aac
+      - assets/she1.aac
+      - assets/she2.aac
+      - assets/she3.aac
+      - assets/she4.aac
+      - assets/she5.aac
+      - assets/she6.aac
+      - assets/she7.aac
+      - assets/be1.aac
+      - assets/be2.aac
+      - assets/be3.aac
+      - assets/be4.aac
+      - assets/be5.aac
+      - assets/be6.aac
+      - assets/be7.aac
+      - assets/qe1.aac
+      - assets/qe2.aac
+      - assets/qe3.aac
+      - assets/qe4.aac
+      - assets/qe5.aac
+      - assets/qe6.aac
+      - assets/qe7.aac
+      - assets/te1.aac
+      - assets/te2.aac
+      - assets/te3.aac
+      - assets/te4.aac
+      - assets/te5.aac
+      - assets/te6.aac
+      - assets/te7.aac
+      - assets/ch1.aac
+      - assets/ch2.aac
+      - assets/ch3.aac
+      - assets/ch4.aac
+      - assets/ch5.aac
+      - assets/ch6.aac
+      - assets/ch7.aac
+      - assets/ne1.aac
+      - assets/ne2.aac
+      - assets/ne3.aac
+      - assets/ne4.aac
+      - assets/ne5.aac
+      - assets/ne6.aac
+      - assets/ne7.aac
+      - assets/gn1.aac
+      - assets/gn2.aac
+      - assets/gn3.aac
+      - assets/gn4.aac
+      - assets/gn5.aac
+      - assets/gn6.aac
+      - assets/gn7.aac
+      - assets/a1.aac
+      - assets/a2.aac
+      - assets/a3.aac
+      - assets/a4.aac
+      - assets/a5.aac
+      - assets/a6.aac
+      - assets/a7.aac
+      - assets/k1.aac
+      - assets/k2.aac
+      - assets/k3.aac
+      - assets/k4.aac
+      - assets/k5.aac
+      - assets/k6.aac
+      - assets/k7.aac
+      - assets/we1.aac
+      - assets/we2.aac
+      - assets/we3.aac
+      - assets/we4.aac
+      - assets/we5.aac
+      - assets/we6.aac
+      - assets/we7.aac
+      - assets/z1.aac
+      - assets/z2.aac
+      - assets/z3.aac
+      - assets/z4.aac
+      - assets/z5.aac
+      - assets/z6.aac
+      - assets/z7.aac
+      - assets/xi1.aac
+      - assets/xi2.aac
+      - assets/xi3.aac
+      - assets/xi4.aac
+      - assets/xi5.aac
+      - assets/xi6.aac
+      - assets/xi7.aac
+      - assets/ye1.aac
+      - assets/ye2.aac
+      - assets/ye3.aac
+      - assets/ye4.aac
+      - assets/ye5.aac
+      - assets/ye6.aac
+      - assets/ye7.aac
+      - assets/de1.aac
+      - assets/de2.aac
+      - assets/de3.aac
+      - assets/de4.aac
+      - assets/de5.aac
+      - assets/de6.aac
+      - assets/de7.aac
+      - assets/je1.aac
+      - assets/je2.aac
+      - assets/je3.aac
+      - assets/je4.aac
+      - assets/je5.aac
+      - assets/je6.aac
+      - assets/je7.aac
+      - assets/g1.aac
+      - assets/g2.aac
+      - assets/g3.aac
+      - assets/g4.aac
+      - assets/g5.aac
+      - assets/g6.aac
+      - assets/g7.aac
+      - assets/tt1.aac
+      - assets/tt2.aac
+      - assets/tt3.aac
+      - assets/tt4.aac
+      - assets/tt5.aac
+      - assets/tt6.aac
+      - assets/tt7.aac
+      - assets/chh1.aac
+      - assets/chh2.aac
+      - assets/chh3.aac
+      - assets/chh4.aac
+      - assets/chh5.aac
+      - assets/chh6.aac
+      - assets/chh7.aac
+      - assets/ts1.aac
+      - assets/ts2.aac
+      - assets/ts3.aac
+      - assets/ts4.aac
+      - assets/ts5.aac
+      - assets/ts6.aac
+      - assets/ts7.aac
+      - assets/f1.aac
+      - assets/f2.aac
+      - assets/f3.aac
+      - assets/f4.aac
+      - assets/f5.aac
+      - assets/f6.aac
+      - assets/f7.aac
+      - assets/pi1.aac
+      - assets/pi2.aac
+      - assets/pi3.aac
+      - assets/pi4.aac
+      - assets/pi5.aac
+      - assets/pi6.aac
+      - assets/pi7.aac
+      - assets/p1.aac
+      - assets/p2.aac
+      - assets/p3.aac
+      - assets/p4.aac
+      - assets/p5.aac
+      - assets/p6.aac
+      - assets/p7.aac
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
